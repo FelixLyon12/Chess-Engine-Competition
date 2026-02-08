@@ -125,17 +125,6 @@ FILE_MASKS = np.array([
     0x8080808080808080,  # file H
 ], dtype=np.uint64)
 
-PASSED_PAWN_BONUS = (
-    0,    # rank 1 (never happens)
-    0,    # rank 2
-    10,   # rank 3
-    25,   # rank 4
-    50,   # rank 5
-    90,   # rank 6
-    180,  # rank 7
-    0     # rank 8
-)
-
 BISHOP_VISION = np.array([[7,14,21,28,35,42,49],[9,18,27,36,45,54,63]])
 
 """
